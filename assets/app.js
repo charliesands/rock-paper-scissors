@@ -1,9 +1,9 @@
 
 
-function play(userChoice, compChoice) {
+function play(userChoice,) {
 let compChoice = "Rock";
 if (userChoice === compChoice){
-    return "Tie"
+    window.alert("Tie")
 } else if (userChoice == "Rock" && compChoice == "Scissors") {
         return "User Wins"
     } else if (userChoice == "Paper" && compChoice == "Rock") {
